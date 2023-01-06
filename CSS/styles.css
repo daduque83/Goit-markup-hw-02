@@ -1,0 +1,142 @@
+:root {
+    --green-color:#148955;
+    --white-color:#FFFFFF;
+    --gray-color: #757575;
+    --black-color:#212121;
+    --blue-color: #2196F3;
+    --main-color: #2F303A;
+}
+
+body {
+    font-family: 'Roboto', 'Raleway', sans-serif;
+    background: var(--white-color);
+
+}
+
+a{
+    text-decoration: none;
+  }
+  
+ul {
+    list-style: none;
+  }	
+
+.title-text4{
+    color:  var(--gray-color);
+}
+
+.title-text1:hover{
+	color: var(--blue-color);
+}
+
+.title-text1:active{
+	color: var(--green-color);
+}
+
+.emblema{
+    color: var(--blue-color); 
+    font-family: Raleway; 
+    font-style: normal; 
+    font-weight: 700; 
+    font-size: 26px;
+}
+
+.link4{
+	color: var(--black-color);
+}
+
+.link:hover{
+	color: var(--blue-color);
+}
+
+.link:active{
+	color: var(--green-color);
+}
+.button4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    width: 261px;
+    height: 50px;
+    display: flex;
+    padding-left: 32px;
+    padding-top: 10px;
+    padding-right: 32px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+    
+    background: var(--blue-color);
+    color: var(--white-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+ }
+
+.button1 {
+    height: 38px;
+    width: 73px;
+    left: 495px;
+    top: 186px;
+    border-radius: 4px;
+    cursor: pointer;
+
+    background: var(--blue-color);
+    color: var(--white-color);
+ }
+
+.button {
+    height: 38px;
+    width: 128px;
+    border-radius: 4px;
+    left: calc(50% - 128px/2 - 160px);
+    top: calc(50% - 38px/2 - 735px);
+    cursor: pointer;
+
+    background: #F5F4FA;
+    color: var(--black-color);
+}
+
+article {
+ 	background: var(--main-color);
+}
+.title-text{
+    color: rgba(255, 255, 255, 0.6);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    }
+
+.title-text:hover{
+    color: var(--blue-color);
+}
+.title-text:active{
+    color: #148955;
+}
+    
+footer {
+         
+    background: var(--main-color);
+    }
+    .other {
+        font-style: normal;
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        color: var(--gray-color);
+    }
+    .sub-pages {
+        font-style: normal;
+        font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 36px;
+        color: var(--black-color);
+    }
+   
+    
